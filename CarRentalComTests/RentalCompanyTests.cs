@@ -127,7 +127,7 @@ public class VehicleTests
     [Test]
     public void Car_ShouldBeInitializedWithCorrectProperties()
     {
-        // Arrange & Act
+        // Arrange, Act
         var car = new Car(1, "Toyota", "Camry", 2022, "Sedan");
 
         // Assert

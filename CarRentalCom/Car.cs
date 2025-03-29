@@ -16,7 +16,7 @@
 
         public override void DisplayInfo()
         {
-            Console.WriteLine($"Car: {Brand} {Model} ({Year}) - Body Type: {BodyType}, IsAvailable: {Available}");
+            Console.WriteLine($"Car: {Brand} {Model} ({Year}) : Body Type: {BodyType}, IsAvailable: {Available}");
         }
 
         public bool IsAvailable()

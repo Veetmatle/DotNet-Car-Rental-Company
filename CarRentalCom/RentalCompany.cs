@@ -27,7 +27,7 @@ public class RentalCompany
         }
         else
         {
-            Console.WriteLine("Vehicle is not available for reservation.");
+            Console.WriteLine("Vehicle is not available for reservation");
         }
     }
     public void CancelReservation(int reservationId)

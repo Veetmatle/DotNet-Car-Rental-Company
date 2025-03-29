@@ -1,5 +1,6 @@
 ﻿namespace CarRentalCom
 {
+    // abstract class for inheritance
     public abstract class Vehicle
     {
         public int Id { get; set; }

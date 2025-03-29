@@ -8,7 +8,7 @@
 
         public override string ToString()
         {
-            return $"Reservation for {Customer} - {VehicleReserved.Brand} {VehicleReserved.Model} on {ReservationDate}";
+            return $"Reservation for {Customer} : {VehicleReserved.Brand} {VehicleReserved.Model} on {ReservationDate}";
         }
     }
 }

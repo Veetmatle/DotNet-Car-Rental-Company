@@ -15,7 +15,7 @@ public class Motorcycle : Vehicle, IReservable
 
     public override void DisplayInfo()
     {
-        Console.WriteLine($"Motorcycle: {Brand} {Model} ({Year}) - Engine Capacity: {EngineCapacity}");
+        Console.WriteLine($"Motorcycle: {Brand} {Model} ({Year}) : Engine Capacity: {EngineCapacity}");
     }
 
     public bool IsAvailable()

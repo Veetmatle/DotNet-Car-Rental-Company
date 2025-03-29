@@ -1,4 +1,4 @@
-﻿namespace CarRentalCom
+﻿namespace CarRentalCom 
 {
     class Program
     {
@@ -11,7 +11,7 @@
                 "Toyota",
                 "Camry",
                 2022,
-                "Sedan");
+                "Suv");
 
 
             var motorcycle1 = new Motorcycle(2,
